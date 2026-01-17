@@ -129,11 +129,11 @@ console.log(`El resultado de la división es: ${division}`);
 // Ejercicio 10: Crea dos variables, la primera con valor 1 y la segunda con valor 2, compara ambas variables dentro de otra variable e imprime en la consola para ver el resultado.
 
 //Escribe tu código aquí
-let valor= 1;
-let valor1=2;
+let valor = 1;
+let valor1 = 2;
 
-let equal=(valor === valor1);
-console.log(equal);
+let resultado = valor == valor1;
+console.log(resultado);
 
 // Ejercicio 10: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
 
