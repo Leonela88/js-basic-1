@@ -32,29 +32,13 @@ const gorillazAlbums = {
   "Cracker Island": 2023
 };
 
-const gorillazMembers = [
-  {
-    name: "2-D",
-    role: "Vocalista y teclado"
-  },
-  {
-    name: "Murdoc Niccals",
-    role: "Bajista"
-  },
-  {
-    name: "Noodle",
-    role: "Guitarrista y vocalista"
-  },
-  {
-    name: "Russel Hobbs",
-    role: "Baterista y percusionista"
-  }
-];
+const gorillazMembers = [ "2-D", "Murdoc Niccals", "Noodle", "Russel Hobbs"];
 
-console.log("El primer Albun de la banda Gorillaz se tituló " + ":" + bandAlbum);
-console.log("Año de lanzamiento" + ":" + releaseYear);
-console.log( "Es una banda Virtual " + ":" + virtualBand);
-console.log("Cantidad de veces que se han presentado en conciertos"+":"+ numberOfConcerts);
+console.log(`El primer Album de la banda Gorillaz se tituló ${bandAlbum}`);
+console.log(`Año de lanzamiento ${releaseYear}`);
+console.log(`virtualband ${virtualBand}`);
+console.log(`Género ${genre}`);
+console.log(`Cantidad de veces que se han presentado en conciertos ${numberOfConcerts}`);
 console.log("Discografía:", gorillazAlbums); 
 console.log("Miembros:", gorillazMembers);  
 
@@ -65,27 +49,16 @@ console.log("Miembros:", gorillazMembers);
 
 //Escribe tu código aquí
 
-const postres = [
-    {
-        item:"Helado"
-    },
-
-    {
-        item:"Tarta"
-    },
-
-    {
-        item:"Pastel"
-    }
-]
-console.log("Postres", postres);
+const postres = ["Helado","Tarta","Pastel"]
+console.log("Postres:", postres);
 
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
 
 //Escribe tu código aquí
 
 const coder={
-    "Leonela":37
+    name: "Leonela",
+    age: 37,
 };
 
 console.log(coder);
@@ -113,7 +86,7 @@ let number1=13;
 let number2=4;
 
 let addition= (number1+number2);
-console.log(addition);
+console.log(`El resultado de la suma es: ${addition}`);
 
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
@@ -126,7 +99,7 @@ let _num1=150;
 let _num2=25;
 
 let subst= (_num1-_num2);
-console.log(subst);
+console.log(`El resultado de la resta es: ${subst}`);
 
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
@@ -137,7 +110,7 @@ let _numb1=15;
 let _numb2=15;
 
 let multiplication= (_numb1*_numb2);
-console.log(multiplication);
+console.log(`El resultado de la multiplicación es: ${multiplication}`);
 
 
 
@@ -150,7 +123,7 @@ let $num1=850;
 let $num2=2;
 
 let division=($num1/$num2);
-console.log(division);
+console.log(`El resultado de la división es: ${division}`);
 
 //OPERADORES DE COMPARACIÓN
 // Ejercicio 10: Crea dos variables, la primera con valor 1 y la segunda con valor 2, compara ambas variables dentro de otra variable e imprime en la consola para ver el resultado.
